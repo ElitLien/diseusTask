@@ -1,0 +1,7 @@
+.trendCard {
+  background: #252a3d;
+  border-radius: 12px;
+  /* padding: 20px 24px; */
+  width: 320px;
+  box-sizing: border-box;
+}

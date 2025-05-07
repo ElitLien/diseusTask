@@ -1,0 +1,55 @@
+.goal {
+  margin-bottom: 16px;
+}
+
+.goals {
+  width: 250px;
+  height: 92%;
+  background-color: #1e2233;
+}
+
+.goals h3 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.goal span {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.progress {
+  --height: 8px;
+  height: var(--height);
+  margin: 6px 0;
+  background: #293450;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+}
+
+.progress::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: var(--v);
+  background: var(--pill-good);
+}
+
+.mini-goals span {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.mini-goals {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: 0 0 0 1px var(--border);
+}

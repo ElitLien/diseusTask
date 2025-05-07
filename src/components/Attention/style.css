@@ -1,0 +1,44 @@
+.attention {
+  border: 1px solid #fdd261;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.attention-main {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.attention-main-title {
+  font-size: 24px;
+  color: #fdd261;
+  font-weight: 300;
+  line-height: 0.1;
+}
+
+.block-date {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.attention-block-title {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.attention-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attention-block {
+  width: 190px;
+}
+
+.attention-block-ref {
+  color: #3b82f6;
+}

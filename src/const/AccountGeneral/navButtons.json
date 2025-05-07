@@ -1,0 +1,11 @@
+{
+  "data": [
+    { "text": "Dashboard", "icon": "Home", "color": "#3B82F6" },
+    { "text": "Accounts", "icon": "Database", "color": "#FFFFFF" },
+    { "text": "Brokers", "icon": "UsersRound", "color": "#3B82F6" },
+    { "text": "Submissions", "icon": "FileInput", "color": "#3B82F6" },
+    { "text": "Organizations", "icon": "Building2", "color": "#3B82F6" },
+    { "text": "Goals & Rules", "icon": "Target", "color": "#3B82F6" },
+    { "text": "Admin", "icon": "KeyRound", "color": "#3B82F6" }
+  ]
+}

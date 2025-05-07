@@ -1,0 +1,92 @@
+.performance-metrics {
+  color: #fff;
+}
+
+.performance-metrics-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.performance-metrics-title-blocks {
+  display: flex;
+  gap: 12px;
+}
+
+.performance-metrics-block {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-top: 30px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.performance-metrics-block-title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  /* font-size: 24px;
+  line-height: 1;
+  font-weight: 300; */
+}
+
+.performance-metrics-block-title-text {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.performance-metrics-block-title-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.performance-metrics-block-large {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.performance-metrics-block-small {
+  font-weight: 300;
+  font-size: 24px;
+  color: #8a8c98;
+  line-height: 1.9;
+}
+
+.performance-metrics-block-small2 {
+  font-weight: 300;
+  font-size: 24px;
+  color: #8a8c98;
+  line-height: 1.9;
+  padding-bottom: 16px;
+}
+
+.performance-metrics-block-bottom-text {
+  font-size: 19px;
+  font-weight: 400;
+  color: #3b82f6;
+}
+
+.performance-metrics-block-top-first {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: fit-content;
+  gap: 12px;
+  padding-top: 36px;
+}
+
+.performance-metrics-block-exposures {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

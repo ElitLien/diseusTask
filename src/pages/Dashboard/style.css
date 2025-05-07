@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 136.38px;
+  padding-bottom: 20px;
+}
+
+.side-column {
+  flex: 1;
+  display: flex;
+  gap: 24px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.work-side {
+  display: flex;
+  gap: 24px;
+}

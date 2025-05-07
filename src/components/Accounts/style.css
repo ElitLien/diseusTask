@@ -1,0 +1,94 @@
+.accounts {
+  margin-top: 40px;
+}
+
+.accounts-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.accounts-head h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 28px;
+}
+
+.accounts-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.accounts-controls input {
+  height: 22px;
+  width: 200px;
+  font-size: 13px;
+  padding: 0 8px;
+  background: #232838;
+  border: none;
+  border-radius: var(--radius);
+  color: var(--text);
+}
+
+.accounts-controls input::placeholder {
+  color: #3e4557;
+}
+
+.accounts-controls button {
+  padding: 4px 12px;
+  background: transparent;
+  border: 1px solid #3b82f6;
+  border-radius: var(--radius);
+  color: #3b82f6;
+  height: 22px;
+  width: 90px;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accounts-controls .primary {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.accounts-table-head {
+  background-color: #252a3d;
+}
+
+/* ───────── Pills ───────── */
+.pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  width: 32px;
+  text-align: center;
+}
+
+.pill.good {
+  background: var(--pill-good);
+}
+
+.pill.warn {
+  background: var(--pill-warn);
+  color: #1e1e1e;
+}
+
+.pill.bad {
+  background: var(--pill-bad);
+}
+
+.pill.hollow {
+  color: var(--text-muted);
+  width: 75%;
+  text-align: center;
+  background-color: #1e2b58;
+  color: #e5e7eb;
+}

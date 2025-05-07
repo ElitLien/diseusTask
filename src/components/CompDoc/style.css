@@ -1,0 +1,39 @@
+.comp-doc {
+  width: 40%;
+}
+
+.comp-doc-card {
+  background: var(--card);
+  border-radius: 28px;
+  padding-left: 28px;
+  padding-right: 80px;
+  padding-block: 32px;
+  box-shadow: 0 0 0 1px var(--border);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.comp-doc-card-item {
+  display: flex;
+  gap: 8px;
+}
+
+.comp-doc-first-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.comp-doc-first-block-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.comp-doc-first-block-ref {
+  color: #3b82f6;
+  padding-top: 6px;
+}

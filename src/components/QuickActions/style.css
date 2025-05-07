@@ -1,0 +1,25 @@
+.quick-actions h3 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.quick-actions .qa-btn {
+  width: 100%;
+  padding: 8px;
+  background: var(--primary);
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
+
+.qa-butns {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.quick-actions .qa-btn:hover {
+  background: var(--primary-hover);
+}

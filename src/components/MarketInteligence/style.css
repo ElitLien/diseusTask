@@ -1,0 +1,36 @@
+.market h3 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.point {
+  border-bottom: 1px solid #262e41;
+  display: flex;
+  gap: 8px;
+}
+
+.point-text {
+  padding-top: 6px;
+  font-size: 13px;
+  /* line-height: 1.3; */
+  padding-bottom: 6px;
+}
+
+.point-dot {
+  margin-top: 6px;
+  width: 17px;
+  height: 12px;
+  border-radius: 20px;
+}
+
+.points .point:nth-child(1) .point-dot {
+  background-color: #b93b3b;
+}
+
+.points .point:nth-child(2) .point-dot {
+  background-color: #fdd261;
+}
+
+.points .point:nth-child(3) .point-dot {
+  background-color: #1e40af;
+}
